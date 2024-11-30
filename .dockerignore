@@ -1,0 +1,25 @@
+# Exclude deployment files/folder
+deployment/
+
+# Exclude Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude virtual environments
+venv/
+env/
+
+# Exclude system files
+.DS_Store
+
+# Exclude IDE/editor files
+.vscode/
+
+# Exclude unnecessary documentation files
+*.md
+
+# Exclude the Dockerfile and .dockerignore itself
+Dockerfile
+.dockerignore
